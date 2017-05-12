@@ -1,0 +1,35 @@
+
+body
+{
+width:100%;
+}
+
+#hth td
+{
+border-bottom:1px solid #000000;
+width:100%;
+}
+.wrong
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FF0000;
+	text-align:left;
+	font-weight:bold;
+	padding:5px 5px 5px 25px;
+	border:#FF0000 thin solid;
+	background:#FFECEC url('image/wrong.png') left center no-repeat;
+}
+
+
+.success
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#008800;
+	text-align:left;
+	font-weight:bold;
+	padding:5px 5px 5px 25px;
+	border:#008000 thin solid;
+	background:#EAFFEA url('image/tick.png') left center no-repeat;
+}
